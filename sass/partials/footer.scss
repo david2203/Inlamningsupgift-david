@@ -1,7 +1,7 @@
 // design av footer
 
 
-
+// allmänt innom footern
 footer {
     position:absolute;
     background-color: rgb(49, 46, 65);
@@ -10,7 +10,7 @@ footer {
 
 }
 
-
+// footercontainer som flexas och stylas
 .flexcontainer {
     display:flex;
     height:40vw;
@@ -21,12 +21,15 @@ footer {
     
 }
 
+// extra flexbox i footercontainern för att fa objekten pa rätt plats
 .divcontainer1 {
     display:flex;
     height:auto;
     flex-direction: column;
     justify-content: space-between;
 }
+
+// extra flexbox i footercontainer
 .divcontainer2 {
     display:flex;
     height:auto;
@@ -34,6 +37,7 @@ footer {
     justify-content: space-around;
 }
 
+// Margin pa all text i footercontainern
 #footer2 {
     margin-top:1.5vw;
 }
